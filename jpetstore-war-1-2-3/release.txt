@@ -1,0 +1,42 @@
+-------------------------------------------
+  Release 1.2.3 February 17, 2003
+-------------------------------------------
+  - Updated iBATIS DB JAR
+  - Implemented sql-map-config.xml (easier deployment)
+  - Cleaned up some redundant code
+
+-------------------------------------------
+  Release 1.2.0 September 25, 2002
+-------------------------------------------
+  - Implemented a more robust Order ID generation scheme (Includes
+    new database table: Sequence)
+  - Cleaned up JSP implementation (Optimized Taglibs & Includes)
+  - Replaced iBATIS Common to iBATIS DB Layer JAR file (latest)
+
+-------------------------------------------
+  Release 1.1.0 August 4, 2002
+-------------------------------------------
+  - Separated Data Access Objects as this is how DAOs are most
+    often implemented
+  - Uses a new iBATIS Common JAR file that now supports inline
+    parameter maps in SQL Maps and a number of other new features.
+  - Configuration is centralized in a single XML file (most other 
+    properties files are no longer required --another new feature
+    of iBATIS Common lib)
+  - Added more DDL for table creation and data loads (thanks
+    to a number of contributors for this)
+  - Minor esthetic changes
+
+-------------------------------------------
+  Release 1.0.1 July 3, 2002
+-------------------------------------------
+
+  - Minor bug fix release
+
+-------------------------------------------
+  Release 1.0.0 June 18, 2002
+-------------------------------------------
+  - First release
+  - Implemented to reproduce functionality of Java PetStore
+    and Microsoft .Net PetShop
+
